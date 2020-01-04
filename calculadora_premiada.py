@@ -20,8 +20,7 @@ if op == "+":
     print("n2: ")
     n2 = int(input())
     total = n1 + n2
-    print("O total eh ")
-    print(total)
+    print("O total eh ", total)
     winsound.PlaySound("congratg.wav", winsound.SND_FILENAME)
 else :
     if op == "-":
@@ -32,11 +31,9 @@ else :
         print("n2: ")
         n2 = int(input())
         total = n1 - n2
-        print("O total eh ")
-        print(total)
+        print("O total eh ", total)
         winsound.PlaySound("teste.wav", winsound.SND_FILENAME)
 if op == "*":
-    if op == "-":
         print("MULT")
         print("DIGITE OS VALORES")
         print("N1 :")
@@ -44,19 +41,17 @@ if op == "*":
         print("n2: ")
         n2 = int(input())
         total = n1 * n2
-        print("O total eh ")
-        print(total)
+        print("O total eh ", total)
         winsound.PlaySound("teste.wav", winsound.SND_FILENAME)
 else :
     if op == "/":
-            print("DIV")
+            print("DIVISAO")
             print("DIGITE OS VALORES")
             print("N1 :")
             n1 = int(input())
             print("n2: ")
             n2 = int(input())
             total = n1 / n2
-            print("O total eh ")
-            print(total)
+            print("O total eh ", total)
             winsound.PlaySound("teste.wav", winsound.SND_FILENAME)
 
